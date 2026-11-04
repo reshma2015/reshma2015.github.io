@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Reshma Prasad
+  display: Reshma Prasad
   given: Reshma
   family: Prasad
   pronouns: ''
