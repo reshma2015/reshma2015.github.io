@@ -40,10 +40,9 @@ interests:
 
 # TODO: add your degrees
 education:
-  - degree: PhD
-    institution: University (TODO)
-    start: 2015-01-01
-    end: 2020-01-01
+  - degree: PhD in (Field)  # TODO
+    institution: University Name  # TODO
+    year: 2020
 
 # Research experience, newest first (shown on the Experience tab)
 experience:

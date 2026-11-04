@@ -19,32 +19,33 @@ sections:
         education: ''
         interests: ''
     design:
-      background:
-        gradient_mesh:
-          enable: true
+      spacing:
+        padding: ['2rem', 0, '2rem', 0]
       name:
         size: md
       avatar:
-        size: medium
+        size: large
         shape: circle
 
   # News: newest first, date in brackets at the end (like the reference sites)
   - block: markdown
     id: news
     content:
-      title: '📰 News'
+      title: 'News'
       text: |-
         <!-- TODO: replace with your news items, newest first -->
-        - Joined the Institute for the Wireless Internet of Things at Northeastern University as a Postdoctoral Research Fellow. **[Month YYYY]**
-        - Paper "TITLE" accepted at VENUE. **[Month YYYY]**
-        - Gave a talk on TOPIC at EVENT. **[Month YYYY]**
+        | | |
+        |:--|:--|
+        | **Mon&nbsp;YYYY** | Joined the Institute for the Wireless Internet of Things at Northeastern University as a Postdoctoral Research Fellow. |
+        | **Mon&nbsp;YYYY** | Paper "Title" accepted at Venue. |
+        | **Mon&nbsp;YYYY** | Gave an invited talk on Topic at Event. |
     design:
       columns: '1'
 
   # Openings / collaboration note (optional — delete this block if not needed)
   - block: markdown
     content:
-      title: '🤝 Collaboration'
+      title: 'Collaboration'
       text: |-
         I am always happy to discuss research collaborations in wireless networks and Open RAN.
         Feel free to [get in touch](contact/).
