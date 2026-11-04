@@ -18,8 +18,11 @@ main:
     url: awards/
     weight: 60
   - name: Service
-    url: misc/
+    url: service/
     weight: 70
+  - name: Misc
+    url: misc/
+    weight: 75
   - name: Contact
     url: contact/
     weight: 80

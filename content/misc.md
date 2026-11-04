@@ -1,20 +1,24 @@
 ---
-title: 'Service'
+title: 'Misc'
 date: 2026-11-04
 type: landing
 
 sections:
   - block: markdown
     content:
-      title: 'Professional Service'
+      title: 'Quotes I Like'
       text: |-
-        ### Technical Program Committee
-        - IEEE INFOCOM 2026 (Poster Session)
+        > A theory is something nobody believes, except the person who made it. An experiment is something everybody believes, except the person who made it.
 
-        ### Reviewer
-        - **Journals:** IEEE/ACM Transactions on Networking, IEEE Transactions on Mobile Computing,
-          IEEE Transactions on Communications, Elsevier Computer Networks
-        - **Conferences:** IEEE WCNC, IEEE CCNC, NetSoft, and others
+        <p align="right">— <b>Albert Einstein</b></p>
+
+        > We are drowning in information, while starving for wisdom. The world henceforth will be run by synthesizers, people able to put together the right information at the right time, think critically about it, and make important choices wisely.
+
+        <p align="right">— <b>E. O. Wilson</b></p>
+
+        > Would you tell me, please, which way I ought to go from here? — That depends a good deal on where you want to get to.
+
+        <p align="right">— <b>Lewis Carroll</b>, <i>Alice's Adventures in Wonderland</i></p>
     design:
       columns: '1'
 ---
