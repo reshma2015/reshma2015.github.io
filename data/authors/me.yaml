@@ -8,11 +8,9 @@ name:
   pronouns: ''
 role: Research Scientist
 bio: |
-  I am a Research Scientist at the Institute for Intelligent Networked Systems, Northeastern University, Boston.
-  My research focuses on AI-native and optimization-driven design of large-scale wireless systems,
-  developing principled and data-driven methods for resource allocation, network orchestration, and
-  performance modeling, with a particular emphasis on Open RAN architectures.
-  I received my Ph.D. from the Indian Institute of Technology Palakkad.
+  I am a Research Scientist at the Institute for Intelligent Networked Systems, Northeastern University. My research lies at the intersection of **wireless networking, optimization, and artificial intelligence**, with a focus on intelligent resource management, network automation, and programmable 5G/6G systems.
+
+  My work combines algorithmic approaches with experimental validation on Open RAN platforms. I received my Ph.D. in Computer Science and Engineering from IIT Palakkad, India.
 
 affiliations:
   - name: Institute for Intelligent Networked Systems, Northeastern University
