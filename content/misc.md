@@ -16,9 +16,9 @@ sections:
 
         <p align="right">— <b>E. O. Wilson</b></p>
 
-        > Would you tell me, please, which way I ought to go from here? — That depends a good deal on where you want to get to.
+        > "Where should I go?" — Alice. "That depends on where you want to end up." — The Cheshire Cat.
 
-        <p align="right">— <b>Lewis Carroll</b>, <i>Alice's Adventures in Wonderland</i></p>
+        <p align="right"><i>Alice's Adventures in Wonderland</i>, <b>Lewis Carroll</b></p>
     design:
       columns: '1'
 ---
