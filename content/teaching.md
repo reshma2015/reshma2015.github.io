@@ -18,8 +18,7 @@ sections:
       text: |-
         - **Assistant Professor**, Department of Computer Science and Engineering, Model Engineering College, Thrikkakara
           *Aug 2017 – Apr 2018, Aug 2018 – May 2019*
-          Taught undergraduate Computer Science and Engineering courses, developed instructional materials,
-          conducted student assessments, and contributed to academic mentoring and curriculum delivery.
+          Taught undergraduate Computer Science and Engineering courses.
     design:
       columns: '1'
 ---
