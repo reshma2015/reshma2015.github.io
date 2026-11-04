@@ -1,10 +1,25 @@
 main:
-  - name: Bio
+  - name: Home
     url: /
     weight: 10
-  - name: Papers
-    url: /#papers
-    weight: 11
+  - name: Research
+    url: research/
+    weight: 20
+  - name: Publications
+    url: publications/
+    weight: 30
   - name: Experience
     url: experience/
-    weight: 20
+    weight: 40
+  - name: Teaching & Talks
+    url: teaching/
+    weight: 50
+  - name: Awards
+    url: awards/
+    weight: 60
+  - name: Misc
+    url: misc/
+    weight: 70
+  - name: Contact
+    url: contact/
+    weight: 80

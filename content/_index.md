@@ -5,6 +5,7 @@ date: 2026-11-04
 type: landing
 
 sections:
+  # Profile: photo, name, role, bio, interests, education, social links (from data/authors/me.yaml)
   - block: resume-biography-3
     content:
       username: me
@@ -26,38 +27,27 @@ sections:
       avatar:
         size: medium
         shape: circle
-  - block: markdown
-    content:
-      title: '📡 My Research'
-      subtitle: ''
-      # TODO: describe your research
-      text: |-
-        I work on next-generation wireless and cellular networks. My research spans Open RAN,
-        intelligent and programmable RAN control, and over-the-air experimentation on
-        5G testbeds.
 
-        Please reach out to collaborate.
+  # News: newest first, date in brackets at the end (like the reference sites)
+  - block: markdown
+    id: news
+    content:
+      title: '📰 News'
+      text: |-
+        <!-- TODO: replace with your news items, newest first -->
+        - Joined the Institute for the Wireless Internet of Things at Northeastern University as a Postdoctoral Research Fellow. **[Month YYYY]**
+        - Paper "TITLE" accepted at VENUE. **[Month YYYY]**
+        - Gave a talk on TOPIC at EVENT. **[Month YYYY]**
     design:
       columns: '1'
-  - block: collection
-    id: papers
+
+  # Openings / collaboration note (optional — delete this block if not needed)
+  - block: markdown
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
+      title: '🤝 Collaboration'
+      text: |-
+        I am always happy to discuss research collaborations in wireless networks and Open RAN.
+        Feel free to [get in touch](contact/).
     design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
+      columns: '1'
 ---

@@ -45,12 +45,19 @@ education:
     start: 2015-01-01
     end: 2020-01-01
 
+# Research experience, newest first (shown on the Experience tab)
 experience:
   - role: Postdoctoral Research Fellow
-    org: Northeastern University
+    org: Institute for the Wireless Internet of Things, Northeastern University
     start: 2024-01-01  # TODO: your actual start date
     summary: |
       Research on next-generation wireless and cellular networks.
+  # - role: Previous role (TODO)
+  #   org: Organization
+  #   start: 2020-01-01
+  #   end: 2023-12-31
+  #   summary: |
+  #     What you worked on.
 
 skills:
   - name: Technical Skills
