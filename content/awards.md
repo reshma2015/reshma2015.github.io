@@ -8,15 +8,11 @@ sections:
     content:
       title: 'Awards & Honors'
       text: |-
-        <!-- TODO: newest first -->
-        - **Award name** @ Conference / Organization — *Month YYYY*
-    design:
-      columns: '1'
-  - block: markdown
-    content:
-      title: 'Grants & Fellowships'
-      text: |-
-        - **Grant name** @ Funding agency — *YYYY*
+        - **Pre-post Doctoral Fellowship Award**, IIT Palakkad
+        - **Best Poster Award**, Research Scholars Day 2023, IIT Palakkad
+        - Qualified **UGC NET and JRF**, July 2018
+        - Qualified **UGC NET**, December 2017
+        - Qualified **GATE**, 2013
     design:
       columns: '1'
 ---

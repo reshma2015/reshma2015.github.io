@@ -6,64 +6,113 @@ name:
   given: Reshma
   family: Prasad
   pronouns: ''
-role: Postdoctoral Research Fellow
-# TODO: replace with your own bio
+role: Research Scientist
 bio: |
-  Reshma Prasad is a Postdoctoral Research Fellow at Northeastern University in Boston, MA.
-  Reshma's research focuses on wireless networks and next-generation cellular systems,
-  including Open RAN, programmable RAN control, and experimental wireless testbeds.
+  I am a Research Scientist at the Institute for Intelligent Networked Systems, Northeastern University, Boston.
+  My research focuses on AI-native and optimization-driven design of large-scale wireless systems,
+  developing principled and data-driven methods for resource allocation, network orchestration, and
+  performance modeling, with a particular emphasis on Open RAN architectures.
+  I received my Ph.D. from the Indian Institute of Technology Palakkad.
 
 affiliations:
-  - name: Northeastern University
+  - name: Institute for Intelligent Networked Systems, Northeastern University
     url: https://www.northeastern.edu/
 
 links:
   - icon: at-symbol
     url: mailto:re.prasad@northeastern.edu
     label: E-mail Me
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=aYZudkcAAAAJ
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/reshma-prasad-42bb586a/
   - icon: brands/github
     url: https://github.com/reshma2015
-  # TODO: uncomment and fill in
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/citations?user=XXXX
-  # - icon: brands/linkedin
-  #   url: https://www.linkedin.com/in/XXXX/
-  # - icon: academicons/orcid
-  #   url: https://orcid.org/XXXX
 
-# TODO: edit to match your research
 interests:
-  - Open RAN & 5G/6G
-  - Programmable RAN control
-  - Wireless testbeds
-  - Connected UAVs
+  - Open RAN & AI-RAN
+  - Network Optimization
+  - Resource Allocation & Scheduling
+  - Integrated Access and Backhaul
+  - ML for Wireless Networks
 
-# TODO: add your degrees
 education:
-  - degree: PhD in (Field)  # TODO
-    institution: University Name  # TODO
-    year: 2020
-
-# Research experience, newest first (shown on the Experience tab)
-experience:
-  - role: Postdoctoral Research Fellow
-    org: Institute for the Wireless Internet of Things, Northeastern University
-    start: 2024-01-01  # TODO: your actual start date
+  - degree: Ph.D. in Engineering
+    institution: Indian Institute of Technology Palakkad
+    year: 2019 – 2024
+    start: 2019-07-01
+    end: 2024-07-01
     summary: |
-      Research on next-generation wireless and cellular networks.
-  # - role: Previous role (TODO)
-  #   org: Organization
-  #   start: 2020-01-01
-  #   end: 2023-12-31
-  #   summary: |
-  #     What you worked on.
+      Department of Computer Science and Engineering. Thesis: *QoS-aware slice allocation in 5G networks*.
+  - degree: M.Tech. in Computer Science and Information Systems
+    institution: Rajagiri School of Engineering and Technology, Kakkanad
+    year: 2013 – 2015
+    start: 2013-07-01
+    end: 2015-07-01
+    summary: |
+      Thesis: *Text classification of Malayalam documents using machine learning approaches*.
+  - degree: B.Tech. in Computer Science and Engineering
+    institution: Amrita School of Engineering, Kollam
+    year: 2006 – 2010
+    start: 2006-07-01
+    end: 2010-07-01
+
+experience:
+  - role: Research Scientist
+    org: Institute for Intelligent Networked Systems, Northeastern University, Boston
+    start: 2026-08-01
+    summary: |
+      Research on next-generation wireless networks, focusing on network optimization, intelligent
+      resource management, and Open RAN architectures.
+  - role: Postdoctoral Research Fellow
+    org: Institute for Intelligent Networked Systems, Northeastern University, Boston
+    start: 2024-08-01
+    end: 2026-07-31
+    summary: |
+      Developed optimization methods for GPU resource sharing and workload orchestration to enable
+      efficient co-location of AI and RAN workloads. Investigated machine learning and data-driven
+      approaches for network performance prediction, scheduling, and automated RAN configuration.
+      Studied Integrated Access and Backhaul (IAB) networks and UAV-assisted wireless systems,
+      combining algorithmic optimization with practical implementation on OpenAirInterface and
+      experimental 5G/O-RAN platforms.
+  - role: Ph.D. Researcher
+    org: Indian Institute of Technology Palakkad
+    start: 2019-07-01
+    end: 2024-07-01
+    summary: |
+      Developed components of end-to-end network slice provisioning for 5G networks, including
+      revenue-maximizing frameworks for service aggregators and infrastructure providers,
+      QoS-aware scheduling policies for the RAN, and rate-control mechanisms that jointly satisfy
+      user QoS, RAN utilization, and core bandwidth efficiency.
+  - role: Assistant Professor
+    org: Department of Computer Science and Engineering, Model Engineering College, Thrikkakara
+    start: 2017-08-01
+    end: 2019-05-31
+    summary: |
+      Taught undergraduate Computer Science and Engineering courses, developed instructional
+      materials, and mentored students.
+  - role: Programmer Analyst
+    org: Cognizant Technology Solutions, Kochi
+    start: 2010-07-01
+    end: 2013-07-31
+    summary: |
+      End-to-end ETL data testing, development and validation of Business Intelligence reports
+      with customer stakeholders, and VBA automation tools.
 
 skills:
-  - name: Technical Skills
+  - name: Programming & Platforms
     items:
-      - label: OpenAirInterface
-        level: 4
       - label: Python
+        level: 5
+      - label: C / Julia / Java
         level: 4
-      - label: Linux / Networking
+      - label: OpenAirInterface / O-RAN
+        level: 4
+  - name: Optimization & Systems
+    items:
+      - label: Gurobi / scikit-learn
+        level: 4
+      - label: Linux / Docker / OpenShift
+        level: 4
+      - label: InfluxDB / Git
         level: 4

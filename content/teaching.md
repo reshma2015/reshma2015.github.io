@@ -6,22 +6,20 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: 'Teaching'
+      title: 'Invited Talks'
       text: |-
-        <!-- TODO -->
-        ### Teaching Assistant
-        - **Course name (Course code)** @ Department, University — Semester YYYY
-
-        ### Mentoring
-        - Students mentored, tutorials given, etc.
+        - **ALLSTaR – AgentRAN: Towards the Agentic 6G RAN**
+          Invited speaker, IEEE Future Networks World Forum 2025, track *"Leveraging Agentic AI: Towards a New Era of AI in Networks"*
     design:
       columns: '1'
   - block: markdown
     content:
-      title: 'Invited Talks & Seminars'
+      title: 'Teaching'
       text: |-
-        <!-- TODO: newest first -->
-        - **Talk title** @ Venue, City — *Month YYYY* [[Slides]](#)
+        - **Assistant Professor**, Department of Computer Science and Engineering, Model Engineering College, Thrikkakara
+          *Aug 2017 – Apr 2018, Aug 2018 – May 2019*
+          Taught undergraduate Computer Science and Engineering courses, developed instructional materials,
+          conducted student assessments, and contributed to academic mentoring and curriculum delivery.
     design:
       columns: '1'
 ---

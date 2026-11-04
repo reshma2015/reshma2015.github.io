@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: ""
     # Site meta description for search engines and social sharing
-    description: "Reshma Prasad, Postdoctoral Research Fellow at Northeastern University."
+    description: "Reshma Prasad, Research Scientist at the Institute for Intelligent Networked Systems, Northeastern University. Open RAN, AI-RAN, and wireless network optimization."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "" # Twitter/X handle for Twitter Cards (without @)
