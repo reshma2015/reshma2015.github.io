@@ -36,65 +36,41 @@ interests:
 
 education:
   - degree: Ph.D. in Computer Science and Engineering
-    institution: Indian Institute of Technology Palakkad
+    institution: Indian Institute of Technology Palakkad, India
     year: 2019 – 2024
-    start: 2019-07-01
-    end: 2024-07-01
-    summary: |
-      Department of Computer Science and Engineering. Thesis: *QoS-aware slice allocation in 5G networks*.
+    start: "2019"
+    end: "2024"
   - degree: M.Tech. in Computer Science and Information Systems
-    institution: Rajagiri School of Engineering and Technology
+    institution: Rajagiri School of Engineering and Technology, India
     year: 2013 – 2015
-    start: 2013-07-01
-    end: 2015-07-01
-    summary: |
-      Thesis: *Text classification of Malayalam documents using machine learning approaches*.
+    start: "2013"
+    end: "2015"
   - degree: B.Tech. in Computer Science and Engineering
-    institution: Amrita School of Engineering
+    institution: Amrita School of Engineering, India
     year: 2006 – 2010
-    start: 2006-07-01
-    end: 2010-07-01
+    start: "2006"
+    end: "2010"
 
 experience:
   - role: Research Scientist
-    org: Institute for Intelligent Networked Systems, Northeastern University, Boston
+    org: Northeastern University, Boston, USA
     start: 2026-08-01
-    summary: |
-      Research on next-generation wireless networks, focusing on network optimization, intelligent
-      resource management, and Open RAN architectures.
   - role: Postdoctoral Research Fellow
-    org: Institute for Intelligent Networked Systems, Northeastern University, Boston
+    org: Northeastern University, Boston, USA
     start: 2024-08-01
     end: 2026-07-31
-    summary: |
-      Developed optimization methods for GPU resource sharing and workload orchestration to enable
-      efficient co-location of AI and RAN workloads. Investigated machine learning and data-driven
-      approaches for network performance prediction, scheduling, and automated RAN configuration.
-      Studied Integrated Access and Backhaul (IAB) networks and UAV-assisted wireless systems,
-      combining algorithmic optimization with practical implementation on OpenAirInterface and
-      experimental 5G/O-RAN platforms.
   - role: Ph.D. Researcher
-    org: Indian Institute of Technology Palakkad
+    org: Indian Institute of Technology Palakkad, India
     start: 2019-07-01
     end: 2024-07-01
-    summary: |
-      Developed components of end-to-end network slice provisioning for 5G networks, including
-      revenue-maximizing frameworks for service aggregators and infrastructure providers,
-      QoS-aware scheduling policies for the RAN, and rate-control mechanisms that jointly satisfy
-      user QoS, RAN utilization, and core bandwidth efficiency.
   - role: Assistant Professor
-    org: Department of Computer Science and Engineering, Model Engineering College, Thrikkakara
+    org: Model Engineering College, Kochi, India
     start: 2017-08-01
     end: 2019-05-31
-    summary: |
-      Taught undergraduate Computer Science and Engineering courses.
   - role: Programmer Analyst
-    org: Cognizant Technology Solutions, Kochi
+    org: Cognizant Technology Solutions, Kochi, India
     start: 2010-07-01
     end: 2013-07-31
-    summary: |
-      End-to-end ETL data testing, development and validation of Business Intelligence reports
-      with customer stakeholders, and VBA automation tools.
 
 skills:
   - name: Programming & Platforms
