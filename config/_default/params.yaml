@@ -37,22 +37,22 @@ hugoblox:
     pack: "minimal"
     # Optional: Override theme pack colors
     colors:
-      primary: "#6d28d9" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: "#be185d"
+      primary: "#1e40af" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: "#0e7490"
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
     colors_dark: {}
     # Optional: Semantic surface color overrides
     surfaces:
-      background: "#f6f3fd"
+      background: "#eef3fa"
       foreground: ""
       header:
-        background: "#2e1065"
+        background: "#0b2545"
         foreground: "#ffffff"
       footer:
-        background: "#2e1065"
-        foreground: "#ddd6fe"
+        background: "#0b2545"
+        foreground: "#cbd5e1"
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
