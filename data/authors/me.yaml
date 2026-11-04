@@ -1,0 +1,63 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Dr. Reshma Prasad
+  given: Reshma
+  family: Prasad
+  pronouns: ''
+role: Postdoctoral Research Fellow
+# TODO: replace with your own bio
+bio: |
+  Reshma Prasad is a Postdoctoral Research Fellow at Northeastern University in Boston, MA.
+  Reshma's research focuses on wireless networks and next-generation cellular systems,
+  including Open RAN, programmable RAN control, and experimental wireless testbeds.
+
+affiliations:
+  - name: Northeastern University
+    url: https://www.northeastern.edu/
+
+links:
+  - icon: at-symbol
+    url: mailto:re.prasad@northeastern.edu
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/reshma2015
+  # TODO: uncomment and fill in
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/citations?user=XXXX
+  # - icon: brands/linkedin
+  #   url: https://www.linkedin.com/in/XXXX/
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/XXXX
+
+# TODO: edit to match your research
+interests:
+  - Open RAN & 5G/6G
+  - Programmable RAN control
+  - Wireless testbeds
+  - Connected UAVs
+
+# TODO: add your degrees
+education:
+  - degree: PhD
+    institution: University (TODO)
+    start: 2015-01-01
+    end: 2020-01-01
+
+experience:
+  - role: Postdoctoral Research Fellow
+    org: Northeastern University
+    start: 2024-01-01  # TODO: your actual start date
+    summary: |
+      Research on next-generation wireless and cellular networks.
+
+skills:
+  - name: Technical Skills
+    items:
+      - label: OpenAirInterface
+        level: 4
+      - label: Python
+        level: 4
+      - label: Linux / Networking
+        level: 4
