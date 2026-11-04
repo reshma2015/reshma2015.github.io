@@ -1,0 +1,45 @@
+:root {
+  --bg: #fbfbfd; --fg: #1d1d1f; --muted: #5f6368; --card: #ffffff;
+  --line: #e5e5ea; --accent: #c8102e;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #111113; --fg: #ececf0; --muted: #a0a0a8; --card: #1a1a1d; --line: #2c2c31; --accent: #ff5a6e; }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 Inter, system-ui, sans-serif; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.nav { position: sticky; top: 0; display: flex; justify-content: space-between; align-items: center;
+  padding: 14px 24px; background: color-mix(in srgb, var(--bg) 85%, transparent);
+  backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); z-index: 10; }
+.brand { font-weight: 700; color: var(--fg); }
+.nav nav a { margin-left: 20px; color: var(--muted); font-size: 15px; }
+main { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+section { padding: 56px 0; border-bottom: 1px solid var(--line); }
+section:last-child { border-bottom: 0; }
+.hero { display: flex; gap: 40px; align-items: center; padding-top: 80px; }
+.hero h1 { font-size: 44px; line-height: 1.1; margin: 0 0 8px; }
+.role { color: var(--muted); font-weight: 500; margin-top: 0; }
+.photo { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.btn { padding: 8px 18px; border-radius: 999px; background: var(--accent); color: #fff; font-weight: 500; }
+.btn.ghost { background: transparent; color: var(--fg); border: 1px solid var(--line); }
+.btn:hover { text-decoration: none; opacity: .88; }
+h2 { font-size: 26px; margin: 0 0 24px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+.card h3 { margin: 0 0 6px; font-size: 17px; }
+.card p { margin: 0; color: var(--muted); font-size: 15px; }
+.pubs { padding-left: 20px; }
+.pubs li { margin-bottom: 18px; }
+.pubs .title { font-weight: 600; }
+.pubs .authors, .pubs .venue { color: var(--muted); font-size: 15px; }
+footer { text-align: center; color: var(--muted); font-size: 14px; padding: 32px 16px; }
+@media (max-width: 640px) {
+  .hero { flex-direction: column-reverse; align-items: flex-start; padding-top: 48px; }
+  .hero h1 { font-size: 34px; }
+  .photo { width: 140px; height: 140px; }
+  .nav nav a { margin-left: 12px; font-size: 14px; }
+  main { padding: 0 16px; }
+}
